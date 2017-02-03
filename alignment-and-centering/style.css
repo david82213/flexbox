@@ -35,5 +35,15 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   min-height: 100vh;
   /*flex-direction: row; row is default */
   /* column, row, row-reverse, column-reverse */
-  
+
+  /* stretch across x-axis and y-axis */
+  /* each box is 33.3% of the view width from below css */
+  flex-wrap: wrap; /* default is nowrap; theres wrap-reverse */
+}
+
+.box{
+  /* calc will do the math */
+  /* 20px because 10px on each side due to margin */
+  width: calc(33.333% - 20px);
+  margin: 10px;
 }
