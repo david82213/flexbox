@@ -37,10 +37,12 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex:1;
 }
 
-.box3 {
+/* order is default to 0 */
+/* works in negative value as well */
+.box1 {
   order:1;
 }
 
-.box5 {
+.box3 {
   order:2;
 }
