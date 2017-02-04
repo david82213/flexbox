@@ -43,10 +43,23 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 
   /* ------------------------------------------- */
   display: flex;
-  justify-content: space-between; /* flex-start, flex-end, space-between, space-around, center */
   border: 10px solid goldenrod;
+
+  /* justify-content */
+  /* lines up horizontally */
+  /* ------------------------------------------- */
+  /* flex-start, flex-end, space-between, space-around, center */
+  /*justify-content: space-between;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100vh;*/
+
+  /* align-items */
+  /* lines up vertically */
+  /* ------------------------------------------- */
+  height: 100vh;
+  /* lines up elements with a base horizontal line */
+  align-items: baseline;
+  flex-direction: column;
 }
 
 .box{
