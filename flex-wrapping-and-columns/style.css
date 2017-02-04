@@ -34,7 +34,11 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   flex-wrap:wrap;
   flex-direction:column;
   border:10px solid goldenrod;
-  height:100vh;
+  min-height:100vh;
+
+  /* stretch across x-axis and y-axis */
+  /* each box is 33.3% of the view width from below css */
+  flex-wrap: wrap; /* default is nowrap; theres wrap-reverse */
 }
 
 .box {
@@ -48,7 +52,5 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box4 {
-  flex-basis:100px;  
+  flex-basis:100px;
 }
-
-
