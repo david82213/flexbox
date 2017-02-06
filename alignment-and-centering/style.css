@@ -64,6 +64,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   /* lines up vertically */
   align-content: space-between;
   flex-wrap: wrap;
+
+  /* lines up elements individually */
+  align-items: flex-start;
 }
 
 .box{
@@ -75,4 +78,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
   /* ------------------------------------------- */
   width: 33.333%;
 
+}
+
+.box9{
+  /* line up individual content */
+  align-self: flex-end;
 }
