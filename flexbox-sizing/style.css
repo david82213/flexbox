@@ -34,9 +34,16 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
 }
 
 .box {
+  /* what do i do with extra space */
+  /* each element is equally distributed */
   flex:1;
 }
 
 .box2 {
+  /* this box is 2x */
   flex:2;
+}
+
+.box5{
+  flex: 3;
 }
